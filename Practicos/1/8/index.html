@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form action="calculadora.php" method="GET">
+        <p>Ingrese un primer numero: <input type="text" name="primer"></p>
+        <p>Ingrese un segundo numero: <input type="text"  name="segundo"> </p>
+
+        <select name="operacion">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+          </select>
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    <form action="pi.php" method="GET">
+        <h3>Numero PI π <button type="submit">π</button></h3>
+    </form>
+</body>
+</html>
